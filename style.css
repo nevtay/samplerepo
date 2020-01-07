@@ -1,0 +1,53 @@
+body {
+    background:#f9f9f9;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: space-evenly;
+    height: 100%;
+    /* width: 100%; */
+    padding: 30px;
+    margin: auto;
+    background: url(https://images.unsplash.com/photo-1495416868322-0cb3f6219d8b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+body div {
+    width: 75%;
+    background: rgba(200,200,200, 0.7);
+    display: flex;
+    flex-flow: column wrap;
+    margin: 20px auto;
+    padding: 25px 15px;
+    box-shadow: 0px 15px 10px -5px #bcbcbc;
+    transition: all 0.2s;
+    border-radius: 10px;
+}
+
+h1, p {
+    text-shadow: 0px 2px 2px salmon;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 0;
+    font-family: Helvetica;
+    color: gold;
+    margin: 0;
+}
+
+p {
+    text-align: center;
+    font-size: calc(120%);
+    margin-top: 15px;
+    font-family: Tahoma;
+    color: teal;
+}
+
+body div:hover {
+    box-shadow: 0px 15px 10px -12px #666;
+    background: rgba(200,200,200, 0.9);
+}
